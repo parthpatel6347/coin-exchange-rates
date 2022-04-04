@@ -1,0 +1,51 @@
+// border color
+$lightBlue: rgb(202, 216, 223);
+
+// main container styles
+.table-main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+// table styles
+table {
+  width: 500px;
+  border-collapse: collapse;
+  border: 1px solid $lightBlue;
+  margin-bottom: 50px;
+
+  tr {
+    text-align: center;
+    td,
+    th {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid $lightBlue;
+    }
+    th {
+      background-color: rgb(236, 242, 245);
+    }
+    td {
+      font-size: 14px;
+    }
+  }
+}
+
+// interval control styles
+.interval-control {
+  margin-bottom: 20px;
+  label {
+    margin-right: 10px;
+  }
+  select {
+    width: 50px;
+    height: 25px;
+    font-size: 15px;
+  }
+}

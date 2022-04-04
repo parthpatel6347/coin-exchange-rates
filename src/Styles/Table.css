@@ -1,0 +1,58 @@
+.table-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+table {
+  width: 500px;
+  border-collapse: collapse;
+  border: 1px solid #cad8df;
+  margin-bottom: 50px;
+}
+
+table tr {
+  text-align: center;
+}
+
+table tr td,
+table tr th {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #cad8df;
+}
+
+table tr th {
+  background-color: #ecf2f5;
+}
+
+table tr td {
+  font-size: 14px;
+}
+
+.interval-control {
+  margin-bottom: 20px;
+}
+
+.interval-control label {
+  margin-right: 10px;
+}
+
+.interval-control select {
+  width: 50px;
+  height: 25px;
+  font-size: 15px;
+}
+/*# sourceMappingURL=Table.css.map */
