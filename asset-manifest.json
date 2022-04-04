@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/coin-rates/static/css/main.86f9a734.css",
+    "main.js": "/coin-rates/static/js/main.268ee226.js",
+    "static/js/787.30cb353f.chunk.js": "/coin-rates/static/js/787.30cb353f.chunk.js",
+    "index.html": "/coin-rates/index.html",
+    "main.86f9a734.css.map": "/coin-rates/static/css/main.86f9a734.css.map",
+    "main.268ee226.js.map": "/coin-rates/static/js/main.268ee226.js.map",
+    "787.30cb353f.chunk.js.map": "/coin-rates/static/js/787.30cb353f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86f9a734.css",
+    "static/js/main.268ee226.js"
+  ]
+}
